@@ -1,0 +1,24 @@
+As a new user, I want to sinup for an account             High
+    Take place in the HTML file, form with a role of sinup 
+    going to be followed with a password form.
+
+As a new user, I want to create recipes                   High
+    In HTML file will be an ordered list to store recipes, 
+    along with P tags to reference recipes. 
+
+As a new user, I want to comment on other recipes         Medium
+    In HTML file under recipes there will be a rectangle 
+    box that gives the user access to make comments. 
+
+As a new user, I want to like other recipes               Low
+    Underneath the comment bos there will be a like box 
+    where users can click on the like button, this will take 
+    place in the .js file to render the onClick() for a button.
+
+
+As a new user, I want to add my Github                    Low 
+    Not very much important, but if you like to add 
+    personal info thi swill take place in the .js file to 
+    .append() new info to your profile page. 
+
+

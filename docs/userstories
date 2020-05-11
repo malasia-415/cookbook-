@@ -1,0 +1,19 @@
+ROLE           TASK                                      IMPORTANCE
+
+As a new user, I want to sinup for an account             High
+As a new user, I want to create recipes                   High
+As a new user, I want to comment on other recipes         Medium
+As a new user, I want to like other recipes               Low
+As a new user, I want to add my Github                    Low 
+
+As a returning user, I want to like recipes               High
+As a returning user, I want to comment on recipes         Medium
+As a returning user, I want to add new recipes            High 
+As a retruning user, I want to review my recipes          Low 
+As a returning user, I want to share my recipes           Low 
+
+As a administrator, I want to view  all comers account    High
+As a administrator, I want to view all likes              Medium
+As a administrator, I want to view all comments           Medium
+As a administrator, I want to see most recent upload      Low 
+As a administrator, I want to view all shared recipes     Low 
