@@ -1,21 +1,29 @@
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
   }
   
   body {
     font-family: "Open Sans",
     sans-serif;
     font-size: 20px;
-    color: #444;
+    color:white;
     text-align: center;
     line-height: 1.5;
     min-width: 320px;
+    background-image: url("https://c8.alamy.com/comp/KDH3K5/health-food-concept-for-a-high-fibre-diet-with-fruit-vegetables-cereals-KDH3K5.jpg");
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
   
   nav,
   footer {
     padding: 1% 0;
-    background-color: #aaa;
+    background-color: burlywood;
   }
   
   nav {
@@ -33,11 +41,11 @@
   section {
     min-height: 200px;
     padding: 30px 15px;
-    background-color: #bbb;
+    background-color: burlywood;
   }
   
   section:nth-child(even) {
-    background-color: #ddd;
+    background-color:burlywood;
   }
   
   p {
