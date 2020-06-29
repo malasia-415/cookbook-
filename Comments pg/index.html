@@ -20,7 +20,7 @@
       <h1>This Is Your CookBook</h1>
     </header>
   <section>
-    <form id="record-recipe">
+    <form id="record recipe" action="/action_page.php">
     <div class="form-section">
         <label for="recipe-title">New Recipe</label>
         <input type="text" name="recipe-title" placeholder="Cook your heart out!" required>
@@ -35,9 +35,9 @@
             <p class="recipe-like-box">Like Box</p>
             <input click="number" name="number-of-clicks" placeholder="1" min="1" max="1000" required=""> 
             <p class="recipe-like-box">Comment Box</p>
-            <input click="number" name="comment-box" placeholder="Looks Good!" min="1" max="1000" required=""> 
+            <input click="number" name="comment-box" placeholder="Looks Good!" min="1" max="1000" required="">
             <br>
-            <button click="submit">Submit</button>
+            <input type="submit" id="mySubmit" value="Submit">
     <script src="script.js"></script>
   </body>
 </html>

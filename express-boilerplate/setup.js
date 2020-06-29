@@ -1,4 +1,4 @@
-const { expect } = require('chai')
+const { expect } = require('mocha')
 const supertest = require('supertest')
 
 global.expect = expect
