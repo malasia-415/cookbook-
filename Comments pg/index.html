@@ -20,24 +20,30 @@
       <h1>This Is Your CookBook</h1>
     </header>
   <section>
-    <form id="record recipe" action="/action_page.php">
+    <form id="record-recipe">
+      <div class="form-section">
+          <label for="recipe-title">New Recipe</label>
+          <br>
+          <input type="text" name="recipe-title" placeholder="Cook your heart out!" required>
+      </div id="getForm">
+          <label for="create-recipe">Create your recipe</label>
+          
+      <div class="form-section">
+            <textarea name="create-recipe" rows="15"   required></textarea>
+      </div>
+    
     <div class="form-section">
-        <label for="recipe-title">New Recipe</label>
-        <input type="text" name="recipe-title" placeholder="Cook your heart out!" required>
-    </div>
-         <label for="create-recipe">Create your recipe</label>
-         
-    <div class="form-section">
-          <textarea name="create-recipe" rows="15"   required></textarea>
-    </div>
-
-    <div class="form-section">
-            <p class="recipe-like-box">Like Box</p>
-            <input click="number" name="number-of-clicks" placeholder="1" min="1" max="1000" required=""> 
+            <!-- <input click="number" name="number-of-clicks" placeholder="1" min="1" max="1000" required="">  -->
             <p class="recipe-like-box">Comment Box</p>
             <input click="number" name="comment-box" placeholder="Looks Good!" min="1" max="1000" required="">
             <br>
             <input type="submit" id="mySubmit" value="Submit">
+        </form>
+      </div>
+        <div class="recipes" id="newForm">
+        </div>
     <script src="script.js"></script>
+      </main>
+    </section>
   </body>
 </html>
